@@ -2,6 +2,16 @@
 <h3>Dados das eleções de 2020 do estado da Paraíba coletado do Portal dos dados Abertos do TSE:</h3>
 <h4>Esse projeto foi desenvolvido e elabora para atender as demandas avaliativas da disciplina de Estatística Computacional no Instituo Federal da Paraíba,
  Campus Campina Grande.</h4>
+ 
+<ul>
+ <p>Foram utiliza as seguintes bibliotecas para o seu desenvolvimento:</p>
+  <li>Pandas;
+   <li>Numpy;
+    <li>Dash;
+     <li>dash_bootstrap_components;
+      <li>Plotly;
+       <p><strong>OBS:</strong> Foi preciso conhecimento básico em HTML e CSS.</p>
+</ul>
 
 RECEITAS_CANDIDATOS
 Variável – Descrição
