@@ -12,7 +12,8 @@
       <li>Plotly;
        <p><strong>OBS:</strong> Foi preciso conhecimento básico em HTML e CSS.</p>
 </ul>
-
+<p>Descrição das variáveis encontrada nas tabelas:</p>
+<code><pre>
 RECEITAS_CANDIDATOS
 Variável – Descrição
 DT _GERACAO	- Data de geração das informações data da extração dos dados.
@@ -160,4 +161,4 @@ SQ_DESPESA - Sequencial de identificação do registro da despesa declarada pelo
 DT_DESPESA - Data da despesa declarada à Justiça Eleitoral.
 DS_DESPESA - Descrição do gasto no elenco de aplicações informada pelo prestador de contas em relação à despesa.
 VR_DESPESA_CONTRATADA - Valor da despesa contratada em Reais (R$), informada pelo prestador de contas em relação à despesa.	
-
+</pre></code>
