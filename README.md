@@ -4,7 +4,7 @@
  Campus Campina Grande.</h4>
  
 <ul>
- <p>Foram utiliza as seguintes bibliotecas para o seu desenvolvimento:</p>
+ <p> -- Foram utiliza as seguintes bibliotecas para o seu desenvolvimento:</p>
   <li>Pandas;
    <li>Numpy;
     <li>Dash;
