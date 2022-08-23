@@ -1,5 +1,7 @@
 <h1>base_tse_pb_2020</h1>
-Dados das eleções de 2020 do estado da Paraíba coletado do Portal dos dados Abertos do TSE:
+<h3>Dados das eleções de 2020 do estado da Paraíba coletado do Portal dos dados Abertos do TSE:</h3>
+<h4>Esse projeto foi desenvolvido e elabora para atender as demandas avaliativas da disciplina de Estatística Computacional no Instituo Federal da Paraíba,
+ Campus Campina Grande.</h4>
 
 RECEITAS_CANDIDATOS
 Variável – Descrição
