@@ -14,7 +14,7 @@
 </ul>
 <p>Descrição das variáveis encontrada nas tabelas:</p>
 <code><pre>
-RECEITAS_CANDIDATOS
+<strong>TABELA RECEITAS_CANDIDATOS:</strong>
 Variável – Descrição
 DT _GERACAO	- Data de geração das informações data da extração dos dados.
 HH_GERACAO - Hora de geração das informações hora da extração dos dados - Horário de Brasília.
@@ -74,7 +74,10 @@ DT_RECEITA - Data da doação declarada à Justiça Eleitoral.
 DS_RECEITA - Descrição Resumida informada pelo prestador de contas em relação à doação.
 VR_RECEITA - Valor da doação em Reais (R$).
 
-DESPESAS-PAGAS-CANDIDATOS
+
+
+<strong>TABELA DESPESAS-PAGAS-CANDIDATOS:</strong>
+
 Variável – Descrição
 DT_GERACAO - Data de geração das informações (data da extração dos dados).
 HH_GERACAO - Hora de geração das informações (hora da extração dos dados) - Horário de Brasília.
@@ -105,7 +108,9 @@ DT_PAGTO_DESPESA - Data de pagamento da despesa declarada à Justiça Eleitoral.
 DS_DESPESA - Descrição da despesa.
 VR_PAGTO_DESPESA	Valor pago da despesa em Reais (R$), informada pelo prestador de contas.
 
- DESPESAS_CONTRATADAS_CANDIDATOS
+
+
+<strong>TABELA DESPESAS_CONTRATADAS_CANDIDATOS:</strong>
 
 Variável – Descrição
 DT_GERACAO - Data de geração das informações (data da extração dos dados).
@@ -137,7 +142,6 @@ NM_PARTIDO - Nome do partido do candidato.
 CD_TIPO_FORNECEDOR - Código de identificação do tipo de fornecedor informada pelo prestador de contas em relação à despesa.
 DS_TIPO_FORNECEDOR - Descrição do tipo de fornecedor informada pelo prestador de contas em relação à despesa. Pode assumir os valores: 'Pessoa Física' ou 'Pessoa Jurídica'.
 CD_CNAE_FORNECEDOR - Código CNAE do fornecedor de bens e/ou serviços, se pessoa jurídica.
-
 DS_CNAE_FORNECEDOR - Descrição do CNAE (Código do Setor Econômico) do fornecedor de bens e/ou serviços, se pessoa jurídica.
 NR_CPF_CNPJ_FORNECEDOR - Número do CPF/CNPJ do fornecedor de bens e/ou serviços informada pelo prestador de contas em relação à despesa.
 NM_FORNECEDOR - Nome do fornecedor de bens e/ou serviços declarado a Justiça Eleitoral, informada pelo prestador de contas em relação à despesa.
