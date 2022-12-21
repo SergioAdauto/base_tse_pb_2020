@@ -1,7 +1,7 @@
-<h1>base_tse_pb_2020</h1>
-<h3>Dados das eleções de 2020 do estado da Paraíba coletado do Portal dos dados Abertos do <a href="https://dadosabertos.tse.jus.br/">TSE</a>:</h3>
-<h4>Esse projeto foi desenvolvido e elabora para atender as demandas avaliativas da disciplina de Estatística Computacional no Instituo Federal da Paraíba,
- Campus Campina Grande.</h4>
+<h1>Dashboard Python - Eleições Paraibana 2020</h1>
+<p>Dados das eleções de 2020 do estado da Paraíba, coletado no Portal dos dados Abertos do <a href="https://dadosabertos.tse.jus.br/">TSE</a>:</p>
+<p>Esse projeto foi desenvolvido e elabora para atender as demandas avaliativas da disciplina de Estatística Computacional no Instituo Federal da Paraíba,
+ Campus Campina Grande.</p>
  
 <ul>
  <p> -- Foram utiliza as seguintes bibliotecas para o seu desenvolvimento:</p>
@@ -12,7 +12,8 @@
       <li>Plotly;
        <p><strong>OBS:</strong> Foi preciso conhecimento básico em HTML e CSS.</p>
 </ul>
-<p>Descrição das variáveis encontrada nas tabelas:</p>
+<br>
+<p><strong>Descrição das variáveis encontrada nas tabelas:</strong></p>
 <code><pre>
 <strong>TABELA RECEITAS_CANDIDATOS:</strong>
 Variável – Descrição
@@ -74,8 +75,7 @@ DT_RECEITA - Data da doação declarada à Justiça Eleitoral.
 DS_RECEITA - Descrição Resumida informada pelo prestador de contas em relação à doação.
 VR_RECEITA - Valor da doação em Reais (R$).
 
-
-
+<br>
 <strong>TABELA DESPESAS-PAGAS-CANDIDATOS:</strong>
 
 Variável – Descrição
@@ -108,8 +108,7 @@ DT_PAGTO_DESPESA - Data de pagamento da despesa declarada à Justiça Eleitoral.
 DS_DESPESA - Descrição da despesa.
 VR_PAGTO_DESPESA	Valor pago da despesa em Reais (R$), informada pelo prestador de contas.
 
-
-
+<br>
 <strong>TABELA DESPESAS_CONTRATADAS_CANDIDATOS:</strong>
 
 Variável – Descrição
@@ -161,7 +160,6 @@ NM_PARTIDO_FORNECEDOR - Nome do partido declarado pelo prestador de contas, quan
 DS_TIPO_DOCUMENTO	 - Tipo de documento. Podendo assumir os valores 'Recibo', 'Cupom Fiscal', 'Fatura', 'Nota Fiscal', 'Duplicata', 'Outros'.
 NR_DOCUMENTO - Número de documento que comprove a despesa.
 SQ_DESPESA - Sequencial de identificação do registro da despesa declarada pelo prestador de contas.
-
 DT_DESPESA - Data da despesa declarada à Justiça Eleitoral.
 DS_DESPESA - Descrição do gasto no elenco de aplicações informada pelo prestador de contas em relação à despesa.
 VR_DESPESA_CONTRATADA - Valor da despesa contratada em Reais (R$), informada pelo prestador de contas em relação à despesa.	
