@@ -5,18 +5,19 @@ from dash import Dash, dcc, html, Input, Output, dash_table
 import dash_bootstrap_components as dbc
 import plotly.express as px
 
-
+# Carregando os dados com Pandas:
 dc = pd.read_csv(filepath_or_buffer='https://github.com/SergioAdauto/base_tse_pb_2020/raw/main/dados/despesas_contratadas_candidatos_2020_PB.zip', sep=';', decimal = '.', compression='zip', encoding='latin-1')
 
 dp = pd.read_csv(filepath_or_buffer='https://github.com/SergioAdauto/base_tse_pb_2020/raw/main/dados/despesas_pagas_candidatos_2020_PB.zip', sep=';', decimal = '.', compression='zip', encoding='latin-1')
 
 rc = pd.read_csv(filepath_or_buffer='https://github.com/SergioAdauto/base_tse_pb_2020/raw/main/dados/receitas_candidatos_2020_PB.zip', sep=';', decimal = '.', compression='zip', encoding='latin-1')
 
+# Selecionando as informações de Campina Grande:
 despesas_contratadas = dc.query('NM_UE == "CAMPINA GRANDE"')
 despesas_pagas = dp
 receita_candidatos = rc.query('NM_UE == "CAMPINA GRANDE"')
 
-
+# Juntando os DataFrames das despesas:
 df_despesas = despesas_contratadas[['DS_CARGO',
                                     'NM_CANDIDATO', 
                                     'NR_CPF_CANDIDATO', 
@@ -28,7 +29,7 @@ df_despesas = despesas_contratadas[['DS_CARGO',
     right=despesas_pagas[['DS_ORIGEM_DESPESA', 'SQ_DESPESA', 'VR_PAGTO_DESPESA']], on='SQ_DESPESA')
 
 
-
+# Selecionando as colunas desejadas do DataFrame de Receitas dos Candidatos:
 df_receitas = receita_candidatos[['DS_CARGO',
                     'NM_CANDIDATO',
                     'NR_CPF_CANDIDATO',
@@ -40,7 +41,7 @@ df_receitas = receita_candidatos[['DS_CARGO',
                     'DS_RECEITA']]
 
 
-
+# Organizando os tipos das colunas:
 df_despesas['VR_DESPESA_CONTRATADA'] = df_despesas['VR_DESPESA_CONTRATADA'].str.replace(',', '.')
 df_receitas['VR_RECEITA'] = df_receitas['VR_RECEITA'].str.replace(',', '.')
 df_despesas['VR_PAGTO_DESPESA'] = (df_despesas['VR_PAGTO_DESPESA'].str.replace(',', '.')).astype(np.float32)
