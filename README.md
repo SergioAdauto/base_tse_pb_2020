@@ -1,5 +1,5 @@
 <h1>Dashboard Python - Eleições Paraibana 2020</h1>
-<p>Dados das eleções de 2020 do estado da Paraíba, coletado no Portal dos dados Abertos do <a href="https://dadosabertos.tse.jus.br/">TSE</a>:</p>
+<p>Os Dados utilizados nesse projeto são das eleções de 2020 do estado da Paraíba, coletado no Portal dos dados Abertos do <a href="https://dadosabertos.tse.jus.br/">TSE</a>:</p>
 <p>Esse projeto foi desenvolvido e elabora para atender as demandas avaliativas da disciplina de Estatística Computacional no Instituo Federal da Paraíba,
  Campus Campina Grande.</p>
  
