@@ -6,10 +6,11 @@ import dash_bootstrap_components as dbc
 import plotly.express as px
 
 
-dc = pd.read_csv(filepath_or_buffer='https://github.com/SergioAdauto/base_tse_pb_2020/raw/main/despesas_contratadas_candidatos_2020_PB.zip', sep=';', decimal = '.', compression='zip', encoding='latin-1')
-dp = pd.read_csv(filepath_or_buffer='https://github.com/SergioAdauto/base_tse_pb_2020/raw/main/despesas_pagas_candidatos_2020_PB.zip', sep=';', decimal = '.', compression='zip', encoding='latin-1')
+dc = pd.read_csv(filepath_or_buffer='https://github.com/SergioAdauto/base_tse_pb_2020/raw/main/dados/despesas_contratadas_candidatos_2020_PB.zip', sep=';', decimal = '.', compression='zip', encoding='latin-1')
 
-rc = pd.read_csv(filepath_or_buffer='https://github.com/SergioAdauto/base_tse_pb_2020/raw/main/receitas_candidatos_2020_PB.zip', sep=';', decimal = '.', compression='zip', encoding='latin-1')
+dp = pd.read_csv(filepath_or_buffer='https://github.com/SergioAdauto/base_tse_pb_2020/raw/main/dados/despesas_pagas_candidatos_2020_PB.zip', sep=';', decimal = '.', compression='zip', encoding='latin-1')
+
+rc = pd.read_csv(filepath_or_buffer='https://github.com/SergioAdauto/base_tse_pb_2020/raw/main/dados/receitas_candidatos_2020_PB.zip', sep=';', decimal = '.', compression='zip', encoding='latin-1')
 
 despesas_contratadas = dc.query('NM_UE == "CAMPINA GRANDE"')
 despesas_pagas = dp
