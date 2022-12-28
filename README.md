@@ -10,7 +10,7 @@
     <li>Dash;
      <li>dash_bootstrap_components;
       <li>Plotly;
-       <p><strong>OBS:</strong> Foi preciso conhecimento básico em HTML e CSS.</p>
+       <p><strong>OBS:</strong> Foi preciso conhecimento básico em HTML e CSS para o desenvolvimento do Dashboard.</p>
 </ul>
 <br>
 <p><strong>Descrição das variáveis encontrada nas tabelas:</strong></p>
